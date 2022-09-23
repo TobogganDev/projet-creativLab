@@ -1,5 +1,5 @@
-# Projet Creativ Lab
+# Projet Creativ Lab - Arduino
 
 ## Informations
 
-Avoir la librairie **Liquid Crystal** [color=#26B260]texte coloré en vert[/color]
+Avoir la librairie **Liquid Crystal**
