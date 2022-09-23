@@ -27,17 +27,19 @@ void loop() {
     analogWrite(4, i);
     analogWrite(3, (255-i));
   }
-  if (a == 1023){
-    result++;
-    delay(150);
-  }
-  if (a == 1023){
+  if (a == 1023 || a == 0){
     result++;
     delay(150);
   }
   Serial.println(result);
   if (b == 1){
     result = 0;
+    digitalWrite(3,255);
+    digitalWrite(4,255);
+    lcd.setCursor(2,0);
+    lcd.print("Votre Score :");
+    lcd.setCursor(6,1);
+    lcd.print("        ");
   }
   lcd.setCursor(2,0);
   lcd.print("Votre Score :");
