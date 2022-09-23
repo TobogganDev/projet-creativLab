@@ -2,4 +2,4 @@
 
 ## Informations
 
-Avoir la librairie **Liquid Crystal**
+Avoir la librairie **Liquid Crystal** [color=#26B260]texte coloré en vert[/color]
